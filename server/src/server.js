@@ -1,6 +1,6 @@
 const http = require('http');
 
-const app = require('./app');
+const app = require('../app');
 
 const PORT = process.env.PORT || 8000; //we dont want to conflict with port
 //serving our frontend which is at 3000
